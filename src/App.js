@@ -12,7 +12,7 @@ function App() {
       <NavBar />
       <main className="container">
         <Switch>
-          <Route path="/login" component={LoginForm} />
+          <Route path="/loginForm" component={LoginForm} />
           <Route path="/" component={Home} />
         </Switch>
       </main>
