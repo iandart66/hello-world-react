@@ -11,7 +11,7 @@ class LoginForm extends Component {
           <a className="navbar-brand mx-auto" href="#">
             <img
               src={Logo}
-              alt="Logo"
+              alt="iDC Logo"
               width="100px"
               height="100px"
               className="img-fluid"
