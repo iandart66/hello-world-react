@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 //import Home from "./home";
 //import App from "./../App";
 import Logo from "./Logo.svg";
+import Broadband from "./broadband";
 
 const NavBar = () => {
   return (
@@ -20,6 +21,11 @@ const NavBar = () => {
         <li>
           <Link className="nav-link" to="/">
             Home
+          </Link>
+        </li>
+        <li>
+          <Link className="nav-link" to="/broadband">
+            Broadband
           </Link>
         </li>
         <li>

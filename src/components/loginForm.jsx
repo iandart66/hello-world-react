@@ -7,8 +7,8 @@ class LoginForm extends Component {
   render() {
     return (
       <div className="container">
-        <div>
-          <a className="navbar-brand mx-auto" href="#">
+        <div className="mx-auto d-block">
+          <a href="#">
             <img
               src={Logo}
               alt="iDC Logo"
@@ -42,7 +42,7 @@ class LoginForm extends Component {
                   placeholder="Password"
                 />
               </div>
-              <div class="checkbox mb-3">
+              <div className="checkbox mb-3">
                 <label>
                   <input type="checkbox" value="remember-me" /> Remember me
                 </label>
